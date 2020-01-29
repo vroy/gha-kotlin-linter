@@ -28,5 +28,5 @@ on:
          uses: actions/checkout@v2
 
        - name: "ktlint"
-         uses: "vroy/ktlint-github-action@master"
+         uses: "vroy/gha-kotlin-linter@v1"
 ```
