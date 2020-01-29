@@ -1,0 +1,18 @@
+name: 'ktlint'
+description: 'Lint your Kotlin code'
+inputs:
+  patterns:  # id of input
+    description: 'Path patterns to lint'
+    default: ''
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.patterns }}
+
+branding:
+  icon: 'eye'
+  color: 'purple'
