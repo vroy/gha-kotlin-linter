@@ -1,18 +1,11 @@
 name: 'ktlint'
-description: 'Lint your Kotlin code'
+description: 'Run ktlint in your repository'
 inputs:
-  patterns:  # id of input
-    description: 'Path patterns to lint'
-    default: ''
-outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+  patterns:
+    description: 'A list of patterns to pass along to the ktlint command'
+    default: '**/*.kt'
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
     - ${{ inputs.patterns }}
-
-branding:
-  icon: 'eye'
-  color: 'purple'
