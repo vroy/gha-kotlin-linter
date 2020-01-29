@@ -6,7 +6,7 @@ This GitHub action runs the Kotlin Linter, [ktlint](https://github.com/pinterest
 
 ### `patterns`
 
-**Optional** A list of patterns to pass along to the `ktlint` command. Default: `**/src/**/*.kt`
+**Optional** A list of patterns to pass along to the `ktlint` command. Default: `**/*.kt`
 
 ## Example usage
 
