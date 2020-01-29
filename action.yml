@@ -9,3 +9,6 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.patterns }}
+branding:
+  icon: eye
+  color: purple
