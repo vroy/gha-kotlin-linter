@@ -1,4 +1,4 @@
-name: 'Kotlin Lint'
+name: 'gha-kotlin-linter'
 description: 'Run ktlint in your repository'
 inputs:
   patterns:
