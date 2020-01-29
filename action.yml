@@ -1,4 +1,4 @@
-name: 'ktlint'
+name: 'Kotlin Lint'
 description: 'Run ktlint in your repository'
 inputs:
   patterns:

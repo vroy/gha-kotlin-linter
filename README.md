@@ -1,4 +1,4 @@
-# ktlint-github-action
+# Kotlin Lint Github Action
 
 This GitHub action runs [ktlint](https://github.com/pinterest/ktlint) against your repository.
 
